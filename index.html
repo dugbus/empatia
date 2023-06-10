@@ -7,7 +7,8 @@
   <title>empatia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@800&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Open+Sans:wght@400;600&family=Poppins:wght@800&display=swap"
     rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon-32x32.png">
   <script type="module" src="/main.js"></script>
@@ -23,6 +24,32 @@
       <img src="/arrow.svg" width="23" height="237" alt="arrow">
     </div>
   </nav>
+
+  <aside class="contact-panel">
+    <h1>ARRANGE A CHAT</h1>
+    <p>Happy to have an initial exploratory chat to find out if I would be a good fit to help.<br>
+      Please choose your preferencesto get in touch from the options below:</p>
+    <p>email: hello@empatia.me<br>
+      mobile UK: +44 7933 336518<br>
+      mobile OZ: +61 481 777 100<br>
+      <img src="/whats-app-icon.svg" alt="WhatsApp icon">WhatsApp: chat|video|message
+    </p>
+    <form name="contact" class="contact-form" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name">
+      <label for="name">Email</label>
+      <input type="text" name="email">
+      <label for="name">Telephone</label>
+      <input type="text" name="telephone">
+      <label for="name">Company</label>
+      <input type="text" name="company">
+      <label for="name">Upload a brief</label>
+      <input type="text" name="brief">
+      <label for="name">Any comments you would like to share</label>
+      <textarea name="comments"></textarea>
+      <button type="submit">SUBMIT</button>
+    </form>
+  </aside>
 
   <main id="main">
 
@@ -43,8 +70,10 @@
   </main>
 
   <footer class="container site-footer">
+    <p>We cannot solve our problems with the same thinking we used when we created them. <span>- Albert Einstein</span>
+    </p>
     <div>
-      Copyright © <span id="copyright-year"></span> · empatia · all rights reserved
+      copyright © <span id="copyright-year"></span> · empatia · all rights reserved
     </div>
   </footer>
 </body>
